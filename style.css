@@ -1,0 +1,236 @@
+body, html{
+				margin: 0;
+				padding: 0;
+				border: 0;
+				overflow: auto;
+				font-family: Helvetica;
+				color: black;
+				text-align: center;
+				box-sizing: border-box;
+				overflow-x: hidden;
+				min-height: 100vh;
+
+			}
+
+
+			h1{
+				margin: 0;
+				padding: 20px;
+				font-family: 'Cinzel', serif;
+			}
+
+
+			#HeaderBar{
+				display: grid;
+				grid-template-columns: 200px auto;
+				height: 64px;
+				background: #2c2c2c; /* Old browsers */
+				background: -moz-linear-gradient(top, #2c2c2c 0%, #000000 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #2c2c2c 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #2c2c2c 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+			}
+			#HeaderBar nav{
+				color: white;
+				overflow: hidden;
+			}
+
+			#HeaderBarA a{
+				    text-decoration: none;
+				    color: white;
+				    padding: 64px 32px;
+				    line-height: 64px;
+				    background-color: rgba(0.0,0.0,0.0,0.0)
+				    -webkit-transition: 0.2s; /* Safari */
+				    transition: 0.3s;
+			}
+
+			#HeaderBarA a:link{
+
+				    text-decoration: none;
+				    color: white;
+				   }
+			#HeaderBarA a:visited{
+				    text-decoration: none;
+				    color: white;
+				   }
+
+			#HeaderBarA a:hover{
+				    text-decoration: none;
+				    color: white;
+				    background-color: #000000;
+				    height: 64px;
+				   }
+
+			#HeaderBarA a:active{
+				    text-decoration: none;
+				    color: white;
+				   }
+
+
+			#HomeButtom{
+
+				height: 64px;
+				width: auto;
+				padding: 0;
+				
+			}
+
+			#logoTitle{
+				-webkit-transform: translate(-50%, -50%); 
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 80%;
+				height: 256px;
+				color: white;
+				grid-template-columns: 256px auto;
+				grid-gap: 10px;
+				display: grid;
+				line-height: 1vw;
+			}
+			#logoTitle h1{
+				font-family: 'Cinzel', serif;
+				text-decoration: underline;
+				font-size: 6vw;
+			}
+
+			#logoTitle h2{
+				font-size: 1.3vw;
+				letter-spacing: 0.5vw;
+			}
+
+			#logoLandingPage{
+				height: 75vh;
+				text-align: center;
+			}
+
+			#About{
+				position: relative;
+				width: 100%;
+				background-color: white;
+			}
+
+
+			#About div{
+				display: grid;
+				position: relative;
+			}
+
+			#PhotoContainer{
+				padding: 15%;
+				padding-right: 5%;
+				position: relative;
+				overflow: hidden;
+			}
+			#PhotoContainer img{
+				-webkit-transform: translate(-50%, -50%); 
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 80%;
+				box-shadow: 1px 10px 20px rgba(0, 0, 0, .5);
+			}
+
+			#Services{
+				background: #434343; /* Old browsers */
+				background: -moz-linear-gradient(top, #434343 0%, #2c2c2c 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #434343 0%,#2c2c2c 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #434343 0%,#2c2c2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+			}
+
+			#ServicesContainer{
+
+				grid-template-columns: auto auto auto;
+				grid-gap: 10px;
+				display: grid;
+
+				padding-bottom: 48px;
+				padding-left: 10px;
+
+
+			}
+
+			.Service{
+
+				position: relative;
+
+			}
+
+			.Service img{
+				width: 100%;
+
+			}
+
+			.ServiceName{
+
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: 48px;
+				background-color: rgba(255,255,255,0.75);
+				color: black;
+				text-transform: uppercase;
+				line-height: 48px;
+
+			}
+
+			#Contact{
+				display: grid;
+				grid-template-columns: 70% auto;
+			}
+
+			#ContactForm h1{
+
+				text-align: left;
+				padding-left: 30px;
+
+
+			}
+			#ContactForm h2{
+				text-align: left;
+				font-size: 10pt;
+				color: #434343;
+			}
+
+			#Form{
+				display: grid;
+				grid-template-columns: 50% auto;
+				padding: 15px;
+				padding-top: 0;
+			}
+
+			#Form input{
+				width: 100%;
+				height: 32px;
+			}
+
+			#Form button{
+				width: 100%;
+				height: 32px;
+				background-color: #434343;
+				color: white;
+				border: none;
+				margin-top: 15px;
+			}
+
+			#contactInfo{
+				padding: 10px;
+				padding-left: 25px;
+			}
+
+			#Footer{
+				position: relative;
+				bottom: 0;
+				width: 100%;
+				height: 64px;
+				color: white;
+				text-align: center;
+				line-height: 64px;
+				background: #434343; /* Old browsers */
+				background: -moz-linear-gradient(top, #434343 0%, #2c2c2c 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #434343 0%,#2c2c2c 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #434343 0%,#2c2c2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+			}
